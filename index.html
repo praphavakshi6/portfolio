@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prabhakaran Vakshan - Creative Designer</title>
+    <link href="templatemo-personal-style.css" rel="stylesheet">
+
+    <!--
+
+TemplateMo 593 personal shape
+
+https://templatemo.com/tm-593-personal-shape
+
+-->
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">Prabhakaran Vakshan</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="mobile-menu-toggle" id="mobileMenuToggle">
+                <div class="hamburger"></div>
+                <div class="hamburger"></div>
+                <div class="hamburger"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <ul class="mobile-nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+            <div class="shape shape-5"></div>
+            <div class="shape shape-6"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-subtitle">Software Engineering Intern</div>
+            <h1>Turning Ideas Into Real Solutions</h1>
+            <p class="subtitle">With hands-on experience in ICT support, programming, and system management, I craft
+                digital solutions that work.</p>
+            <a href="#portfolio" class="cta-button">Explore My Work</a>
+        </div>
+        <div class="scroll-indicator" onclick="document.getElementById('about').scrollIntoView()"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title fade-in">About Me</h2>
+            <div class="about-content">
+                <div class="about-image slide-in-left"></div>
+                <div class="about-text slide-in-right">
+                    <h3>Passionate about technology and innovation</h3>
+                    <p>As an aspiring Software Engineer, I am focused on creating user-centered solutions. I have
+                        experience working in ICT support, web development, and system administration. I thrive on
+                        challenges and take pride in crafting intuitive, effective solutions that meet both user needs
+                        and business goals.</p>
+                    <p>My approach is always driven by a combination of creativity, problem-solving, and strategic
+                        thinking. I am continuously seeking to grow my skills and embrace new technologies that will
+                        shape the future of IT.</p>
+                    <p>When I’m not coding, I enjoy learning new technologies, exploring design principles, and finding
+                        inspiration from nature and architecture.</p>
+                    <div class="skills">
+                        <span class="skill-tag">Handling new Technology</span>
+                        <span class="skill-tag">Web Development</span>
+                        <span class="skill-tag">System Administration</span>
+                        <span class="skill-tag">Networking</span>
+                        <span class="skill-tag">Database Management</span>
+                        <span class="skill-tag">UI/UX Design</span>
+                        <span class="skill-tag">Prompt Engineering</span>
+                        <span class="skill-tag">Microsoft Office Packages</span>
+                    </div>
+                    <br><br><br>
+                    <!-- Download CV Button -->
+                    <a href="Praphakaran Vakshan.pdf" class="cta-button" download="praphakaran_vakshan.pdf"
+                        style="display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white; text-align: center; text-decoration: none; border-radius: 5px; font-size: 16px; font-weight: bold; transition: background-color 0.3s, transform 0.3s;">
+                        Download My CV
+                    </a>
+                    
+                    <script>
+                        document.querySelector(".cta-button").addEventListener("mouseover", function () {
+                            this.style.backgroundColor = "#45a049";
+                            this.style.transform = "scale(1.05)";
+                        });
+
+                        document.querySelector(".cta-button").addEventListener("mouseout", function () {
+                            this.style.backgroundColor = "#4CAF50";
+                            this.style.transform = "scale(1)";
+                        });
+                    </script>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title fade-in">Featured Projects</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image"></div>
+                    <div class="portfolio-content">
+                        <h4>GasByGas</h4>
+                        <p>A web and mobile platform for efficient LP gas requests and delivery management, ensuring smooth customer communication, Tokenization and tracking.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image"></div>
+                    <div class="portfolio-content">
+                        <h4>Book Heaven</h4>
+                        <p>"BookHaven" is a comprehensive bookstore management system for sales, inventory, customer interactions, supplier
+                        coordination, and insightful reporting.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">C#</span>
+                            <span class="tech-tag">.NET Framework</span>
+                            <span class="tech-tag">SSMS Express</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image"></div>
+                    <div class="portfolio-content">
+                        <h4>Money Talk</h4>
+                        <p>"Money Talks chatbot helps manage finances by tracking expenses, setting savings goals, offering personalized
+                        financial advice and Notification Alerts using NLP."</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">NLTK</span>
+                            <span class="tech-tag">SQLite</span>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <h2 class="section-title fade-in">Let's Work Together</h2>
+                <p class="fade-in">Looking to take your digital experience to the next level? Let’s connect and explore
+                    how I can help bring your ideas to life.</p>
+                <form class="contact-form fade-in">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your full name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="What’s this about?" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" placeholder="Write Anything..."
+                            required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <p>&copy; 2025 Prabhakaran Vakshan. All rights reserved.</p>
+                    <p>Email: praphavakshi6@gmail.com | Phone: 077 218 3526</p>
+                </div>
+                <div class="footer-right">
+                    <a href="#privacy">Facebook</a>
+                    <a href="#terms">Instagram</a>
+                    <a
+                        href="https://www.linkedin.com/in/praphakaran-vakshan-32992a188?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="templatemo-personal-javascripts.js"></script>
+
+</body>
+
+</html>
